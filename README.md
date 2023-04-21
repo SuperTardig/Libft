@@ -1,15 +1,15 @@
 # libft
-The goal of this 42 school project is to recreate a number of the C standard library and create some other functions. These functions will help me for the rest of my time in my at 42 Québec. We needed to understand how the C standard library worked internally to be able to faithfully recreate them.
+The goal of this 42 school project is to recreate several functions from the C standard library and implement additional custom functions. These functions will help me for the rest of my time in my at 42 Québec. We needed to understand how the C standard library worked internally to be able to faithfully recreate them.
 
 # Mandatory
-The mandatory functions we needed to recreate where has followed:
+The mandatory functions we needed to recreate are has followed:
 
   - int ft_isalpha(int c): This function takes an int, which is the ascii representation of a char, and returns 1 if it is a letter and 0 if it isn't
-  - int ft_isdigit(int c): This function follows the same principle has ft_isalpha, but returns 1 if it is a number
-  - int ft_isalnum(int c): This function follows the same principle has ft_isalpha, but returns 1 if it is a number or letter
-  - int ft_isascii(int c): This function follows the same principle has ft_isalpha, but returns 1 if it is in the range of ascii
-  - int ft_isprint(int c): This function follows the same principle has ft_isalpha, but return 1 if c is able to be printed
-  - size_t ft_strlen(char *str): A simple function that takes a char* and returns it's lenght
+  - int ft_isdigit(int c): This function follows the same principle as ft_isalpha, but returns 1 if it is a number
+  - int ft_isalnum(int c): This function follows the same principle as ft_isalpha, but returns 1 if it is a number or letter
+  - int ft_isascii(int c): This function follows the same principle as ft_isalpha, but returns 1 if it is in the range of ascii
+  - int ft_isprint(int c): This function follows the same principle as ft_isalpha, but return 1 if c is able to be printed
+  - size_t ft_strlen(char *str): A simple function that takes a char* and returns it's length
   - void *ft_memset(void *b, int c, size_t len): This function takes a void*, an int and a size_t, it sets the value of each index of b to c for len
   - void ft_bzero(void *s, size_t n): This function takes a void* and a size_t, it sets the value of each index of s to NULL for n
   - void *ft_memcpy(void *dst, const void *src, size_t n): This fucntion takes two void* and a size_t, it copies the value of each index of src to dst for n
@@ -18,12 +18,12 @@ The mandatory functions we needed to recreate where has followed:
   - size_t ft_strlcat(char *dst, const char *src, size_t dstsize): This function takes two char* and a size_t, it concatenate src into dst for dstsize
   - int ft_toupper(int c): This function takes an int, which is the ascii representation of a char, and return the uppercase version if it is a letter
   - int ft_tolower(int c): This function takes an int, which is the ascii representation of a char, and return the lowercase version if it is a letter
-  - char *ft_strchr(const char *s, int c): This functions takes a char* and an int, it finds c in s and returns the adress of the first occurence
+  - char *ft_strchr(const char *s, int c): This functions takes a char* and an int, it finds c in s and returns the address of the first occurence
   - char *ft_strrchr(const char *s, int c): This funcitons follows the same principle has ft_strchr, except it returns the last occurence
   - int ft_strncmp(const char *s1, const char *s2, size_t n): This functions takes two char* and a size_t it compares s1 to s2 for n and returns the difference between the first index that doesn't match
   - void *ft_memchr(const void *s, int c, size_t n): This functions follows the same principle as ft_strchr, execpt it works with void*
   - int ft_memcmp(const void *s1, const void *s2, size_t n): This functions follows the same principle as ft_strncmp, execpt it works with void*
-  - char *ft_strnstr(const char *haystack, const char *needle, size_t len): This function take two char* and a size_t, it find needle in haystack for len and returns the adress of the first characther of needle in haystack
+  - char *ft_strnstr(const char *haystack, const char *needle, size_t len): This function take two char* and a size_t, it find needle in haystack for len and returns the address of the first character of needle in haystack
   - int ft_atoi(const char *str): This function takes a char* and then converts it tries to convert it to an int
   - void *ft_calloc(size_t count, size_t size): This function takes two size_t, it allocates memory for count by size and set each value to NULL
   - char *ft_strdup(const char *s1): This function take char* and creates a copy which it the returns
