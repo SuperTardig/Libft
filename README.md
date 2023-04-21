@@ -1,5 +1,5 @@
 # libft
-The Goal of this 42 school project is to recreate a number of the C standard library and create some other functions. These functions will help me for the rest of my time in my at 42 Québec. We needed to understand how the C standard library worked internally to be able to faithfully recreate them.
+The goal of this 42 school project is to recreate a number of the C standard library and create some other functions. These functions will help me for the rest of my time in my at 42 Québec. We needed to understand how the C standard library worked internally to be able to faithfully recreate them.
 
 # Mandatory
 The mandatory functions we needed to recreate where has followed:
