@@ -58,4 +58,4 @@ The mandatory functions we needed to recreate are has followed:
   1. Clone this repository
   2. Go to the root of the repository and use `make` (if you want to use the bonus, run `make bonus`)
   3. Include `libft.h` in your project
-  4. Link the library at compile time by adding `-L./libft -lft` to your compilation line
+  4. Link the library at compile time by adding `-L./libft_42 -lft` to your compilation line
