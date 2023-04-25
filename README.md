@@ -1,7 +1,7 @@
 # libft
 The goal of this 42 school project is to recreate several functions from the C standard library and implement additional custom functions. These functions will help me for the rest of my time in my at 42 Québec. We needed to understand how the C standard library worked internally to be able to faithfully recreate them.
 
-# Mandatory
+## Mandatory
 The mandatory functions we needed to recreate are has followed:
 
   - int ft_isalpha(int c): This function takes an int, which is the ascii representation of a char, and returns 1 if it is a letter and 0 if it isn't
@@ -39,7 +39,7 @@ The mandatory functions we needed to recreate are has followed:
   - void ft_putendl_fd(char *s, int fd): This functions follows the same principle as ft_putchar_fd, except it writes a char* and a newline
   - void ft_putnbr_fd(int n, int fd):  This functions follows the same principle as ft_putchar_fd, except it writes an int
   
- # Bonus
+ ## Bonus
  There were also some functions that could be completed has a bonus. These fucntions used a list struct named t_list. They are has followed:
  
   - t_list *ft_lstnew(void *content): This function takes a void*, it creates a new list node from content
@@ -53,7 +53,7 @@ The mandatory functions we needed to recreate are has followed:
   - t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *)): This function takes a t_list* and two function pointer, it creates a new t_list* from using f on every node in lst and it uses del to delete the old node in lst
   
   
-  # Usage
+  ## Usage
   To use this library, you need to:
   1. Clone this repository
   2. Go to the root of the repository and use `make` (if you want to use the bonus, run `make bonus`)
